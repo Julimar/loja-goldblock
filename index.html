@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja GoldBlock</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d4af37;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #000;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+    }
+    .product {
+      background-color: #222;
+      border: 2px solid #d4af37;
+      border-radius: 8px;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    .product img {
+      width: 100px;
+      height: 100px;
+    }
+    .product h2 {
+      color: #d4af37;
+      margin: 10px 0;
+    }
+    .product p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .product .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #d4af37;
+      margin: 10px 0;
+    }
+    .product button {
+      background-color: #d4af37;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .product button:hover {
+      background-color: #f1c40f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Loja GoldBlock</h1>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/100" alt="VIP Ouro">
+      <h2>VIP Ouro (30 dias)</h2>
+      <p>Acesso ao comando /fly<br>Kit semanal<br>Bônus de 10% XP<br>Tag exclusiva no chat<br>Prioridade em login</p>
+      <div class="price">R$ 20,00</div>
+      <button>Comprar</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/100" alt="VIP Diamante">
+      <h2>VIP Diamante (30 dias)</h2>
+      <p>Acesso a /fly e /repair<br>Kit diário<br>Bônus de 25% XP<br>Tag especial<br>Prioridade máxima</p>
+      <div class="price">R$ 35,00</div>
+      <button>Comprar</button>
+    </div>
+  </div>
+</body>
+</html>
